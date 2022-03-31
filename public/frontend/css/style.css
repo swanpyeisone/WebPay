@@ -1,0 +1,217 @@
+
+/*----*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #FAFAFA;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.sp-btn{
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.btn{
+    padding: 10px;
+}
+.btn-theme{
+    background: #1FD3FF;
+    color: #fff;
+}
+
+.swal2-popup{
+    border-radius: 10px !important;
+    width: 20em !important;
+}
+.swal2-title{
+    font-size: 18px !important;
+}
+.swal2-styled{
+    border-radius: 10px !important;
+    padding: 10px 25px !important;
+    font-weight: 200 !important;
+}
+.swal2-styled.swal2-confirm{
+    background-color: #1FD3FF !important;
+    font-size: 12px !important;
+}
+.swal2-styled.swal2-confirm:hover{
+    color: black;
+}
+.swal2-styled.swal2-cancel{
+    font-size: 12px !important;
+}
+/*--Header--*/
+.header-menu{
+    background: #1FD3FF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    z-index: 999;
+}
+.profile-image{
+    text-align: center;
+}
+.profile-image img{
+    width: 36px;
+    height: 36px;
+    margin:1px;
+    border-radius: 100%;
+}
+.header-menu a{
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+.header-menu i{
+    font-size: 20px;
+    margin-top: 9px;
+}
+.header-menu h3{
+    font-size: 28px;
+}
+.header-menu a:hover i{
+    color: white;
+    transition: .3s;
+}
+.header-menu a:hover p{
+    color: #1FD3FF;
+    transition: .3s;
+}
+/*--Auth Form--*/
+.auth-form{
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+    border: none;
+}
+.auth-form .card-header{
+    text-align: center;
+    background-color:#1FD3FF ;
+}
+.auth-form a{
+    color: #333;
+    text-decoration: none;
+}
+.auth-form a:hover{
+    color: #1FD3FF;
+}
+/*------*/
+/*-----Footer-----*/
+.bottom-menu{
+    background: rgb(240, 239, 239);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.bottom-menu a{
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+.bottom-menu i{
+    margin-top: 12px;
+    font-size: 20px;
+}
+.bottom-menu p{
+    margin-bottom: 1px;
+    font-size: 12px;
+}
+.bottom-menu a:hover i{
+    color: #1FD3FF;
+    transition: .3s;
+}
+.bottom-menu a:hover p{
+    color: #1FD3FF;
+    transition: .3s;
+}
+.content{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.scan-img img{
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+}
+/*---------- Profile Page -------*/
+
+.profile{
+    text-align: center;
+}
+.profile img{
+    width: 80px;
+    height: 80px;
+    margin:10px;
+    border-radius: 100%;
+}
+.username{
+    text-align: center;
+    font-size: 22px;
+}
+.email{
+    text-align: center;
+    font-size: 18px;
+}
+.card{
+    border-radius: 10px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.09);
+
+}
+.card .update-password{
+    cursor: pointer;
+}
+.card .card-body span{
+    color: black;
+}
+/*----------Update Password ---------*/
+.auth-form img{
+    width: 200px;
+}
+/*------ Balance --------*/
+.balance-img{
+    text-align: center;
+}
+.balance-img img{
+    width: 200px;
+    height: 200px;
+    margin:8px;
+}
+.card{
+    border-radius: 10px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.09);
+
+}
+.card .b-equal i{
+    font-size: 13px;
+}
+/*------- Home --------*/
+.card{
+    border-radius: 10px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.09);
+}
+.card .card-body{
+    color: black;
+}
+
+.home-img img{
+    width: 35px;
+    height: 35px;
+}
+
+/*----- for transfers ----*/
+.transfer{
+    margin-top: 15px;
+    width: 308px;
+    height: 384px;
+}
+
+/*-----for qr---*/
+.qr{
+    text-align: center;
+}
